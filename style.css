@@ -2,6 +2,16 @@ body {
     background-color:#1C1C1C;
 }
 
+.logo{
+    width: 12px;
+}
+    
+.menu{
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 20px;
+}
+
 .texto-principal {
     margin-right: 20%; 
 }
@@ -9,12 +19,15 @@ body {
 h1 {
     color: #D3D3D3;
     text-align: center;
+    padding: 7px;
+    font-size: 25px;
 }
 h2 {
     color: #483D8B;
 }
 p {
     color:  #5F9EA0;
+    padding: 3px;
 
 }
 #imagem-principal {
@@ -23,6 +36,11 @@ p {
     border: 5px dotted salmon;
     float: left;
     position: absolute;
+}
+.lista{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration-line: underline ;
 }
 
 .itens {
@@ -56,3 +74,10 @@ p {
 	color: blue;
 	text-decoration: underline;
 }
+
+.nav{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+
