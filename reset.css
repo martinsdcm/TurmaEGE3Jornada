@@ -1,48 +1,48 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   Licença: nenhuma (domínio público)
+   License: none (public domain)
 */
 
-html, corpo, div, intervalo, applet, objeto, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pré,
-a, abbr, acrônimo, endereço, grande, citar, código,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-pequeno, greve, forte, sub, sup, tt, var,
-b, u, i, centro,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
-conjunto de campos, formulário, rótulo, legenda,
-tabela, legenda, tbody, tfoot, thead, tr, th, td,
-artigo, lado, tela, detalhes, incorporar,
-figura, legenda, rodapé, cabeçalho, hgroup,
-menu, nav, saída, ruby, seção, resumo,
-tempo, marca, áudio, vídeo {
-	margem: 0;
-	preenchimento: 0;
-	borda: 0;
-	tamanho da fonte: 100%;
-	fonte: herdar;
-	alinhamento vertical: linha de base;
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-/* Redefinição da função de exibição HTML5 para navegadores mais antigos */
-artigo, aparte, detalhes, legenda, figura,
-rodapé, cabeçalho, hgroup, menu, navegação, seção {
-	exibição: bloco;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-corpo {
-	altura da linha: 1;
+body {
+	line-height: 1;
 }
-olá, olá {
-	estilo de lista: nenhum;
+ol, ul {
+	list-style: none;
 }
-citação em bloco, q {
-	citações: nenhuma;
+blockquote, q {
+	quotes: none;
 }
-blockquote:antes, blockquote:depois,
-q:antes, q:depois {
-	contente: '';
-	conteúdo: nenhum;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-tabela {
-	colapso da fronteira: colapso;
-	espaçamento entre bordas: 0;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
